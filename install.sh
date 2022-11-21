@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo yum update
 sudo dnf install httpd
 sudo systemctl enable --now httpd.service
