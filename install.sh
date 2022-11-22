@@ -1,4 +1,6 @@
 #!/bin/bash
+#This is script for installing Apache web-server on Oracle Linux 8.5
+
 sudo yum update
 sudo dnf install httpd
 sudo systemctl enable --now httpd.service
